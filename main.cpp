@@ -1,6 +1,6 @@
-#include <iostream> // import iostream
+#include "hello.h" // import hello
 
 int main() {
-    std::cout << "Hello world!" << std::endl; // Write to std out
+    printHello(); // call hello print
     return 0; // return success
 }
